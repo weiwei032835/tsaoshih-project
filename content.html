@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯繫-灶世陶藝</title>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/comment.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- fontAwesome CDN 6.0.0 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- smoove js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- 標題圖示 -->
+    <link rel="icon" href="images/favicon.ico.png" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--桌機版_開始-->
+    <div class="nav_pc">
+        <a class="logo" href="index.html">灶世陶藝首頁</a>
+        <ul>
+            <li><a href="about.html">關於我們 About</a></li>
+            <li><a href="product.html">產品 Product</a></li>
+            <li><a href="content.html">聯繫 Content</a></li>
+        </ul>
+    </div>
+    <!--桌機版_ 結束-->
+
+    <!--　手機版_開始 -->
+    <div class="nav_m">
+        <!--btn_switch 開關 開始-->
+        <div class="btn_switch">
+            <span class="icon"></span>
+        </div>
+        <!--btn_switch 開關 結束-->
+
+        <ul>
+            <li><a href="about.html">關於我們 About</a></li>
+            <li><a href="product.html">產品 Product</a></li>
+            <li><a href="content.html">聯繫 Content</a></li>
+        </ul>
+
+    </div>
+    <!--　手機版_結束 -->
+
+    <main>
+
+        <!-- 聯繫開始 -->
+        <div class="content_header">
+            <h2>聯 繫 </h2>
+            <h3>CONTACT</h3>
+        </div>
+        <!-- 聯繫結束 -->
+
+        <section id="contact" class="lightblue">
+            <h2 class="headline"></h2>
+            <form id="contact_form" name="contact_form" method="post">
+                <label for="name">*姓名:</label>
+                <input type="text" class="input_style" name="name" id="name" required="required" autocomplete="on"
+                    placeholder="王小明" title="請輸入姓名">
+                <label for="tel">聯絡電話:</label>
+                <input type="tel" class="input_style" name="tel" id="tel" autocomplete="on" placeholder="02-99999999">
+                <label for="email">*Email:</label>
+                <input type="email" class="input_style" name="email" id="email" required="required" autocomplete="on"
+                    placeholder="tsaoshih83120184@gmail.com">
+                <label for="message">*留言:</label>
+                <textarea name="message" id="message" rows="5"></textarea>
+                <input type="submit" name="submit" id="submit" value="送出">
+            </form>
+        </section>
+
+    </main>
+
+    <!--頁尾 開始-->
+    <footer>
+        <!--col_1 開始-->
+        <div class="col_1">
+            <!--menu_1 開始-->
+            <div class="menu_1">
+                <h1 class="logo"><img src="images/logo.svg" alt=""></h1>
+                <ul>
+                    <li>營業時間 11:00-19:00</li>
+                    <li>T 04 2662-0391</li>
+                    <li>E tsaoshih83120184@gmail.com </li>
+                    <li>A 433台中市沙鹿區福田南街60號</li>
+                    <li>&copy; 2020 WEIWEI Design</li>
+                </ul>
+            </div>
+            <!--menu_1 結束-->
+
+            <!--menu_2 開始-->
+            <div class="menu_2">
+                <a href="https://instagram.com/tsaoshihpottery?utm_medium=copy_link" title="IG" target="_black"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/tsaoshihpottery/" title="FB" target="_black"><i
+                        class="fa-brands fa-facebook-square"></i></a>
+            </div>
+            <!--menu_2 結束-->
+        </div>
+        <!--col_1 開始-->
+        <div id="gotop"></div>
+    </footer>
+    <!--頁尾 開始-->
+   
+
+</body>
+
+</html>

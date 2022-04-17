@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#e9fbf7",
+        "activityBar.activeBorder": "#d893eb",
+        "activityBar.background": "#e9fbf7",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#d893eb",
+        "activityBarBadge.foreground": "#15202b",
+        "sash.hoverBorder": "#e9fbf7",
+        "statusBar.background": "#bff2e8",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#95e9d9",
+        "statusBarItem.remoteBackground": "#bff2e8",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#bff2e8",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#bff2e899",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#BFF2E8",
+    "cSpell.words": [
+        "smoove"
+    ],
+    "liveServer.settings.port": 5501
+}
