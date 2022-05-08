@@ -74,7 +74,7 @@ body{background: url(../images/bg.png); border:2px solid transparent; letter-spa
 
 /*box_1*/
 .about .menu .box_1{ border:0px solid orange; }
-.about .menu .box_1 figure{ width: 80%; border:0px solid gold; }
+.about .menu .box_1 figure{ width: 65%; border:0px solid gold; }
 .about .menu .box_1 figure img{ width: 100%; height: auto;}
 
 /*box_2*/
